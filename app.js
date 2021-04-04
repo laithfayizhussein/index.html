@@ -1,14 +1,23 @@
 alert("welcome to my page");
 
- var math = prompt('please inter your age' ,'18');
+var color=prompt('enter pic color (blue)or(red)');
+while(color!=='blue'&& color!=='red'){
 
- var username = 'laith';
+color=prompt('enter pic color (blue)or(red)');
 
- document.write (username);
+}
+var pic=prompt('how many pic you want ');
 
- if ( math >= 18 ) {
-     alrt ('u are welcome here ');
-    }
-    else {
-        alert ('this page only for more then 18');
-    }
+for(var i=0;i<pic;i++){
+document.write(i);
+   
+     
+if( color =="blue"){
+    document.write('<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/ff/Solid_blue.svg/1024px-Solid_blue.svg.png"/>');
+}
+else{
+    document.write('<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/25/Red.svg/1200px-Red.svg.png"/>');
+}
+
+}
+
