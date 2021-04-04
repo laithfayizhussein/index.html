@@ -20,4 +20,11 @@ else{
 }
 
 }
+function ShowMessage(firstName, lastName) {
+    alert("hi " + firstName + " " + lastName);
+}
 
+ShowMessage("ahmmad", "almohammad");
+ShowMessage("laith", "hussein");
+ShowMessage(10 ,20); 
+// the last 10 and 20 just to know that take num also
