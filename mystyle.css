@@ -1,0 +1,37 @@
+body {
+width: 960px;
+margin: auto;
+}
+.thetoppic {
+    width: 900px;
+}
+.intro {
+text-align: center;
+background-color: aliceblue;
+padding-bottom: 40px;
+}
+.distable{
+    background-color: #D6C8C5;
+    margin-right: 200px;
+    padding-left: 40px;
+}
+
+.table, th, td {
+
+    border-style: solid;
+    border-color: rgb(5, 0, 0);
+    padding: 3px;
+
+
+}
+.table{
+width : 90%;
+text-align: center;
+}
+#loginbut{
+    width: 180px;
+}
+img{
+    border-radius: 15px;
+    width:100px;
+}

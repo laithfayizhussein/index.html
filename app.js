@@ -13,7 +13,7 @@ document.write(i);
    
      
 if( color =="blue"){
-    document.write('<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/ff/Solid_blue.svg/1024px-Solid_blue.svg.png"/>');
+    document.write('<img class="imgColor" src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/ff/Solid_blue.svg/1024px-Solid_blue.svg.png"/>');
 }
 else{
     document.write('<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/25/Red.svg/1200px-Red.svg.png"/>');
@@ -24,7 +24,13 @@ function ShowMessage(firstName, lastName) {
     alert("hi " + firstName + " " + lastName);
 }
 
-ShowMessage("ahmmad", "almohammad");
-ShowMessage("laith", "hussein");
-ShowMessage(10 ,20); 
+var firstName= prompt('write your first name:');
+var lastName= prompt('write your last name:');
+ShowMessage(firstName, lastName);
+
+
 // the last 10 and 20 just to know that take num also
+
+
+
+
